@@ -6,28 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table</title>
-    <style>
-        table {
-            border-collapse: collapse;
-        }
+    <link rel="stylesheet" href="styles/nav.css">
 
-        td,
-        th {
-            border: 1px solid lightgrey;
-            padding: 0 10px;
-        }
-
-        a {
-            text-decoration: none;
-            margin: 30px;
-            background-image: linear-gradient(rgb(255, 102, 0), tomato);
-            padding: 10px;
-            border-radius: 10px;
-        }
-    </style>
 </head>
 
 <body>
+    <h1>Bussiness Table</h1>
     <table>
         <thead>
             <th>No.</th>
@@ -66,7 +50,25 @@
     <br>
     <br>
     <br>
-    <a target_blank href="index.html">blog</a>
+    <nav class="link">
+        <ul>
+            <li><a target="blank" href="home.html">home
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </a></li>
+            <li><a target_blank href="index.html">blog</a></li>
+            <li><a target="blank" href="form.html">form</a></li>
+            <li><a target="blank" href="exploring.html">audio-video</a></li>
+        </ul>
+    </nav>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae omnis ad quam, expedita accusantium fugit,
+        perferendis quae quis repellendus exercitationem quasi suscipit nam ipsa, soluta ab voluptate? Officia modi
+        neque beatae rerum nihil atque molestiae quaerat ab voluptate ducimus! Laborum possimus optio cumque sunt
+        dignissimos quaerat illum fugit culpa nihil?</p>
 </body>
 
 </html>
