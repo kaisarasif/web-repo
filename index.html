@@ -6,24 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>blog-1</title>
-    <style>
-        body {
-            margin: 50px;
-        }
+    <link rel="stylesheet" href="styles/nav.css">
 
-        h1,
-        h2 {
-            text-align: center;
-        }
-
-        .link a {
-            text-decoration: none;
-            margin: 30px;
-            background-image: linear-gradient(rgb(255, 102, 0), tomato);
-            padding: 5px;
-            border-radius: 10px;
-        }
-    </style>
 
 </head>
 
@@ -80,23 +64,56 @@
                     consequuntur soluta sunt harum! Ipsam dolor magnam quis.</p>
             </article>
         </section>
-        <section>
-            <h3>photo album</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sit ipsa eius ratione porro
-                dignissimos
-                recusandae libero iste, quis optio ex neque ad illo, repudiandae aliquam atque culpa voluptas
-                consectetur?
-            </p>
-        </section>
+
     </main>
     <footer>
         <p>copyright 2029</p>
     </footer><br>
     <nav class="link">
-        <a target="blank" href="home.html">home</a>
-        <a target="blank" href="table.html">table</a><a target="blank" href="form.html">form</a><a target="blank"
-            href="exploring.html">audio-video</a>
+        <ul>
+            <li><a target="blank" href="home.html">home
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </a></li>
+            <li><a target="blank" href="table.html">table
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </a></li>
+            <li><a target="blank" href="exploring.html">audio-video
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </a></li>
+            <li> <a target="blank" href="form.html">form
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </a></li>
+        </ul>
+
     </nav>
+    <section>
+        <h3>photo album</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sit ipsa eius ratione porro
+            dignissimos
+            recusandae libero iste, quis optio ex neque ad illo, repudiandae aliquam atque culpa voluptas
+            consectetur?
+        </p>
+    </section>
 
 </body>
 

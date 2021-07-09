@@ -6,15 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>audio</title>
-    <style>
-        .link a {
-            text-decoration: none;
-            margin: 30px;
-            background-image: linear-gradient(rgb(255, 102, 0), tomato);
-            padding: 20px;
-            border-radius: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+
+
 </head>
 
 <body>
@@ -27,9 +21,40 @@
     <br>
     <br>
     <nav class="link">
-        <a target="blank" href="home.html">home</a>
-        <a target="blank" href="index.html">blog</a>
-        <a target="blank" href="form.html">form</a><a target="blank" href="table.html">table</a>
+        <ul>
+            <li><a href="home.html">home
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </a></li>
+            <li><a href="index.html">blog
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </a></li>
+            <li><a href="table.html">table
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </a></li>
+            <li><a href="form.html">form
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </a></li>
+        </ul>
     </nav>
 </body>
 

@@ -6,15 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="styles/nav.css">
     <style>
-        .link a {
-            text-decoration: none;
-            margin: 30px;
-            background-image: linear-gradient(rgb(255, 102, 0), tomato);
-            padding: 20px;
-            border-radius: 20px;
+        h2 {
+            text-align: left;
         }
     </style>
+
 </head>
 
 <body>
@@ -22,10 +20,43 @@
     <br>
     <br>
     <br>
+    <h2>choose and click one for visiting my website:-</h2>
+    <br>
     <nav class="link">
-        <a target="blank" href="index.html">blog</a>
-        <a target="blank" href="table.html">table</a><a target="blank" href="form.html">form</a><a target="blank"
-            href="exploring.html">audio-video</a>
+        <ul>
+            <li><a target="blank" href="index.html">blog
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </a></li>
+            <li><a target="blank" href="table.html">table
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </a></li>
+            <li><a target="blank" href="form.html">form
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </a></li>
+            <li><a target="blank" href="exploring.html">audio-video
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </a></li>
+        </ul>
     </nav>
 </body>
 

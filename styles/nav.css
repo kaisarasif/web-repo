@@ -37,3 +37,19 @@ nav>ul>li:hover>ul{
     background-color: rgba(134, 224, 16, 0.685);
     
 }
+body {
+    margin: 50px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+
+.link a {
+    text-decoration: none;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
